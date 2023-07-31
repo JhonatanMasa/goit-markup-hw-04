@@ -98,7 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -463,7 +463,7 @@ p {
 }
 
 .li-dedicamos1 {
-  background-image: url(/images/trabajando-1.jpg);
+  background-image: url(../images/trabajando-1.jpg);
   background-size: cover;
   width: 370px;
   height: 320px;
@@ -473,7 +473,7 @@ p {
 }
 
 .li-dedicamos2 {
-  background-image: url(/images/trabajando-2.jpg);
+  background-image: url(../images/trabajando-2.jpg);
   background-size: cover;
   width: 370px;
   height: 320px;
@@ -483,7 +483,7 @@ p {
 }
 
 .li-dedicamos3 {
-  background-image: url(/images/trabajando-3.jpg);
+  background-image: url(../images/trabajando-3.jpg);
   background-size: cover;
   width: 370px;
   height: 320px;
