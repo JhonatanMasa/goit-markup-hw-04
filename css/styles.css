@@ -35,7 +35,7 @@ body {
 
 .container {
   width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .header-elements {
@@ -546,7 +546,7 @@ p {
   padding: 14.09px 32px;
 }
 
-.li-cliente:hover{
+.li-cliente:hover {
   border-color: #2196f3;
 }
 
@@ -612,4 +612,3 @@ p {
   display: flex;
   gap: 70px;
 }
-
