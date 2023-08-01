@@ -35,7 +35,7 @@ body {
 
 .container {
   width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .header-elements {
@@ -421,12 +421,14 @@ p {
   width: 16px;
   height: 12px;
   fill: #757575;
+  margin-right: 10px;
 }
 
 .icon-cellphone {
-  width: 16px;
-  height: 12px;
+  width: 10px;
+  height: 16px;
   fill: #757575;
+  margin-right: 10px;
 }
 
 .icon-beneficios {
@@ -437,13 +439,11 @@ p {
 .svg-container {
   width: 270px;
   height: 120px;
-  flex-shrink: 0;
   border-radius: 4px;
   background: #f5f4fa;
-  padding-top: 25px;
-  padding-right: 100px;
-  padding-bottom: 25px;
-  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
 }
 
 .p-aqnd {
@@ -500,18 +500,18 @@ p {
   padding: 0;
 }
 
-.icon-social {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-  margin: 12px;
-}
-
 .social-container {
   list-style: none;
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  padding: 12px;
+}
+
+.icon-social {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
 }
 
 .social-container:hover {
@@ -537,20 +537,27 @@ p {
   gap: 30px;
 }
 
-.icon-cliente:hover {
-  cursor: pointer;
+.li-cliente {
+  list-style: none;
+  width: 170px;
+  height: 81px;
+  border: #afb1b8 1px solid;
+  border-radius: 4px;
+  padding: 14.09px 32px;
+}
+
+.li-cliente:hover{
+  border-color: #2196f3;
+}
+
+.li-cliente:hover .icon-cliente {
   fill: #2196f3;
-  border: #2196f3 2px solid;
 }
 
 .icon-cliente {
-  width: 170px;
-  height: 81px;
+  width: 106px;
+  height: 50.82px;
   fill: #afb1b8;
-  display: flex;
-  border: #afb1b8 2px solid;
-  border-radius: 4px;
-  margin-bottom: 151px;
 }
 
 .redes {
@@ -605,3 +612,4 @@ p {
   display: flex;
   gap: 70px;
 }
+
